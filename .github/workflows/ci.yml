@@ -27,10 +27,7 @@ jobs:
     - name: Install Dependencies   
       working-directory: react-app
       run: npm install  
-    - name: Optimized Build
-      working-directory: react-app
-      run: npm run build --if-present
-    - name: Deploy
+    - name: Build & Deploy
       working-directory: react-app
       run: |
         git config --global user.name $user_name
