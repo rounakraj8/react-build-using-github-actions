@@ -10,7 +10,7 @@ function App() {
         </p>
       </header>
       <footer className="App-footer">
-        <div>Build Time - {process.env.REACT_APP_BUILD_TIME}</div>
+        <div>Last Updated - {process.env.REACT_APP_BUILD_TIME}</div>
       </footer>
     </div>
   );
