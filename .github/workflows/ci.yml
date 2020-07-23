@@ -24,6 +24,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Set current date as env variable
+        run: echo "::set-env name=build_time::$(date +'%Y-%m-%dT%H:%M:%S')"
+    - name: Echo current date
+        run: echo $build_time    
     - name: Install Dependencies   
       working-directory: react-app
       run: npm install  
@@ -39,4 +43,3 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
-        build_time: echo $(echo $(date))
