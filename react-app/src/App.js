@@ -9,7 +9,7 @@ function App() {
         the master branch, GitHub Actions comes into action and build the React artifact(index.html).
         </p>
       </header>
-      <div>Build Date - `{process.env.REACT_APP_BUILD_TIME}`</div>
+      <div>Build Date - {process.env.REACT_APP_BUILD_TIME}</div>
     </div>
   );
 }
