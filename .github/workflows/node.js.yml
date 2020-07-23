@@ -31,6 +31,7 @@ jobs:
       working-directory: react-app
       run: npm run build --if-present
     - name: Deploy
+      working-directory: react-app
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
