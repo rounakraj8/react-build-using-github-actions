@@ -27,5 +27,4 @@ jobs:
    
     - name: Build Optimized Production
         working-directory: react-app
-        run: |
-          npm run build --if-present
+        run: npm run build --if-present
