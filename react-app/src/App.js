@@ -6,19 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p>This page is build in React.js using GitHub Actions, so as soon as src code is commited to
+          the master branch, GitHub Actions comes into action and build the React artifact(index.html). 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <body>
+        Build Time - 
+      </body>
     </div>
   );
 }
