@@ -10,7 +10,7 @@ function App() {
         </p>
       </header>
       <body>
-        Build Time - 
+        Build Time - {process.env.REACT_BUILD_TIME}
       </body>
     </div>
   );
