@@ -1,17 +1,45 @@
 export const steps = [
     {
-        name: "Step 1",
-        header: 'We need to use GitHub actions to build the artifact as soon as we push our code to GitHub master branch.',
+        name: "1",
+        header: "Create a React App",
+        desc: "You can create a React App using any of the following methods:",
         subSteps: [
-            "Create a React App",
-            "Push the code to GitHub",
+            { desc: "npx create-react-app my-app", imagePath: "" },
+            { desc: "npm init react-app my-app", imagePath: "" },
+            { desc: "yarn create react-app my-app", imagePath: "" },
         ]
 
     },
     {
-        name: "Step 2",
-        header: 'We need to use GitHub actions to build the artifact as soon as we push our code to GitHub master branch.',
+        name: "2",
+        header: 'Add gh-pages npm dependency',
         subSteps: [
+            { desc: "npm install gh-pages --save-dev", imagePath: "" },
+        ]
+    },
+    {
+        name: "3",
+        header: 'Add predeploy and deploy scripts in package.json',
+        desc: "",
+        subSteps: [
+            { desc: '"predeploy": "npm run build"', imagePath: "" },
+            { desc: '"deploy": "gh-pages -d build"', imagePath: "" },
+        ]
+    },
+    {
+        name: "4",
+        header: 'Create GitHub repo & push the code',
+        desc: "You need to create a new GitHub repository and push you code to that repository.",
+        subSteps: [
+        ]
+    },
+
+    {
+        name: "5",
+        header: 'Setup GitHub Actions',
+        desc: "In GitHub UI, you need to go to Actions tab, select NodeJs workflow and then you need to make some changes in config file.",
+        subSteps: [
+            { desc: 'Reference', imagePath: "", link: "https://github.com/rounakraj8/react-build-using-github-actions/blob/master/.github/workflows/ci.yml" },
         ]
     }
 ];

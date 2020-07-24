@@ -1,4 +1,5 @@
 import React from 'react';
+import SubStep from './SubStep';
 import './Step.css';
 
 class Step extends React.Component {
@@ -6,14 +7,11 @@ class Step extends React.Component {
         const { step } = this.props;
         return (
             <div>
-                <h3>
-                    <span>{step.name}  {step.header}</span>
-                </h3>
-                <ul>
-                    {step.subSteps.map((subStep, key) =>
-                        <li>subStep</li>
-                    )}
-                </ul>
+                <div className="Step-h3">
+                    <span>  {step.header}</span>
+                    {step.desc && (<p class="Step-desc">{step.desc}</p>)}
+                </div>
+                <SubStep subSteps={step.subSteps}/>
             </div>
         );
     }

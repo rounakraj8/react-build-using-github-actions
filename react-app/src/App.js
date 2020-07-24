@@ -14,7 +14,10 @@ function App() {
       </header>
       <MainContainer/>
       <footer className="App-footer">
-        <LastUpdated />
+        <span><LastUpdated />
+        &nbsp;&nbsp;&nbsp;
+         Copyright&copy; Rounak
+        </span>
       </footer>
     </div>
   );
