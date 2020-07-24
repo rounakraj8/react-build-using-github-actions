@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
+import LastUpdated from './LastUpdated';
+import ViewOnGitHub from './ViewOnGitHub';
+import ProjectTitle from './ProjectTitle';
+import MainContainer from './MainContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>This page is build in React.js using GitHub Actions, so as soon as src code is commited to
-        the master branch, GitHub Actions comes into action and build the React artifact(index.html).
-        </p>
+        <ProjectTitle />
+        <ViewOnGitHub />
       </header>
+      <MainContainer/>
       <footer className="App-footer">
-        <div>Last Updated - {process.env.REACT_APP_BUILD_TIME}</div>
+        <LastUpdated />
       </footer>
     </div>
   );

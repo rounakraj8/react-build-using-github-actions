@@ -1,0 +1,10 @@
+
+.Main-container{
+  background-color: #dbe7e9;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(4px + 1vmin);
+}
