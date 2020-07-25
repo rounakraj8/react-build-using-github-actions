@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #8dace9;
+  background-color: #34495E;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .App-footer {
-  background-color: #8dace9;
+  background-color: #34495E;
   min-height: 5vh;
   display: flex;
   flex-direction: column;

@@ -28,10 +28,11 @@
 
   ul>li{
     font-family: monospace;
-    background-color: antiquewhite;
+    background-color: #FFFFFF;
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
+    color: #414347;
   }
 
 
