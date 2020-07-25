@@ -40,6 +40,8 @@ export const steps = [
         desc: "In GitHub UI, you need to go to Actions tab, select NodeJs workflow and then you need to make some changes in config file.",
         subSteps: [
             { desc: 'Reference', imagePath: "", link: "https://github.com/rounakraj8/react-build-using-github-actions/blob/master/.github/workflows/ci.yml" },
+    
         ]
     }
+
 ];

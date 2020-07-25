@@ -9,6 +9,9 @@ class SubStep extends React.Component {
                 <ul>
                     {subSteps.map((subStep, key) =>
                         <li>{subStep.desc}
+
+                            {subStep.imagePath &&
+                                (<div><img src={`../assets/images/image1.png`} alt="MissingImage" width="500px" /></div>)}
                             {subStep.link && (
                                 <p className="SubStep-link"> <a href={subStep.link} target="_blank" rel="noopener noreferrer">{subStep.link}</a></p>
                             )}
