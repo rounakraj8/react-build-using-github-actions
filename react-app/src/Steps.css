@@ -1,20 +1,18 @@
-.Steps{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    
+.Steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
-
-.Steps-h3{
-    color: #414347;
-    text-align: left;
-    font-size: calc(10px + 4vmin);
+.Steps-h3 {
+  color: #414347;
+  text-align: left;
+  font-size: calc(10px + 4vmin);
 }
 
-ol>li{
-    color: darkslategrey;
-    font-size: calc(5px + 2vmin);
+ol > li {
+  color: darkslategrey;
+  font-size: calc(5px + 2vmin);
 }

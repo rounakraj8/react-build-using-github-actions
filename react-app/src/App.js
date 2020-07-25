@@ -12,11 +12,11 @@ function App() {
         <ProjectTitle />
         <ViewOnGitHub />
       </header>
-      <MainContainer/>
+      <MainContainer />
       <footer className="App-footer">
-        <span><LastUpdated />
-        &nbsp;&nbsp;&nbsp;
-         Copyright&copy; Rounak
+        <span><LastUpdated /></span>
+        <span>
+          Copyright&copy; Rounak
         </span>
       </footer>
     </div>

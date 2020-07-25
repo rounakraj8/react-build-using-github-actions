@@ -1,38 +1,34 @@
+.Step-h3 {
+  margin-top: 20px;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(8px + 2vmin);
+  color: black;
+}
 
-.Step-h3{
-    margin-top: 20px;
-    min-height: 5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: calc(8px + 2vmin);
-    color: black;
-  }
+.Step-desc {
+  color: darkslategrey;
+  font-size: calc(5px + 2vmin);
+  text-align: left;
+}
 
- .Step-desc{
-   color:darkslategrey;
-   font-size: calc(5px + 2vmin);
-   text-align: left;
- } 
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  text-align: left;
+  max-width: 500px;
+  color: darkslategrey;
+}
 
-  ul{
-    display: flex;
-    flex-direction:column;
-    list-style-type:disc;
-    text-align: left;
-    max-width: 500px;
-    color: darkslategrey;
-    
-  }
-
-  ul>li{
-    font-family: monospace;
-    background-color: #FFFFFF;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    color: #414347;
-  }
-
-
+ul > li {
+  font-family: monospace;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: #414347;
+}

@@ -1,14 +1,9 @@
-.{
-    color: #414347;
-    background-color: #FFFFFF;
+.SubStep-link {
+  text-decoration: none;
+  font-size: small;
 }
 
-.SubStep-link{
-    text-decoration: none;
-    font-size: small;
-}
-
-a{
-    text-decoration: none;
-    font-size: small;
+a {
+  text-decoration: none;
+  font-size: small;
 }
