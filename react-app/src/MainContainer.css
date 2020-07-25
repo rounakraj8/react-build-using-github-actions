@@ -6,4 +6,6 @@
   align-items: center;
   justify-content: left;
   font-size: calc(4px + 1vmin);
+  padding: 10px;
+  margin: auto;
 }
