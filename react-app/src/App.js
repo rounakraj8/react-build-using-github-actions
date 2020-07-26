@@ -16,7 +16,7 @@ function App() {
       <footer className="App-footer">
         <span><LastUpdated /></span>
         <span>
-          Copyright&copy; Rounak
+        &copy;Copyright 2020
         </span>
       </footer>
     </div>
